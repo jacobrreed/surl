@@ -1,3 +1,5 @@
+![Go Build](https://github.com/jacobrreed/surl/actions/workflows/go.yml/badge.svg)
+
 ### URL Shortener in Go
 This is a simple URL shortener API I wrote in Go as my first Go project. Comes with docker compose file to startup mongodb and mongo-express.
 
