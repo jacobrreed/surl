@@ -10,12 +10,12 @@ This is a simple URL shortener API I wrote in Go as my first Go project. Comes w
   - `POST /shorten`
     - Request body: `{ "longUrl": "https://yourlongurlhere.com/123123123/asdasd/11"}`
     - Returns:
-    ```json
-    {
-     "db_id": "65e7ce4213a5684b21b2abf6",
-     "expires": "2024-03-10 21:00:34",
-     "newUrl": "http://localhost:5000/woYWAKASR"
-    }
-   ```
-  - `GET /:shortUrl`
+     ```json
+     {
+      "db_id": "65e7ce4213a5684b21b2abf6",
+      "expires": "2024-03-10 21:00:34",
+      "newUrl": "http://localhost:5000/woYWAKASR"
+     }
+    ```
+ - `GET /:shortUrl`
     - Redirects to the original long url
